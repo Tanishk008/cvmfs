@@ -48,6 +48,8 @@
 #include "util/posix.h"
 #include "util/smalloc.h"
 #include "util/string.h"
+#include "util/concurrency.h"
+#include "clientctx.h"
 
 // Used for address offset calculation
 #if defined(CVMFS_FUSE_MODULE)
